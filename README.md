@@ -1,46 +1,102 @@
-# Getting Started with Create React App
+# Harish G - 3D Animated Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, interactive 3D animated portfolio website built with React, Three.js, and Tailwind CSS.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **3D Animations**: Interactive floating shapes and scroll-based animations
+- **Responsive Design**: Mobile-first approach with smooth transitions
+- **Modern UI**: Dark theme with vibrant accent colors (Pink/Coral and Blue)
+- **Smooth Scrolling**: Section-based navigation with scroll progress indicator
+- **Professional Content**: Complete portfolio showcasing skills, projects, and achievements
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **React** with TypeScript and Hooks
+- **Three.js** with React Three Fiber for 3D graphics
+- **Tailwind CSS** for styling
+- **Lucide React** for icons
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 📋 Sections
 
-### `npm test`
+1. **Hero Section**: Introduction with 3D background and ID card element
+2. **About Section**: Personal mission and expertise cards
+3. **Skills Section**: Animated skill tags categorized by expertise
+4. **Projects Section**: Grid layout with colorful project cards
+5. **Achievements Section**: Timeline of accomplishments and recognitions
+6. **Contact Section**: Contact information and message form
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎨 Design Features
 
-### `npm run build`
+- Modern dark theme with pink (#FF6B6B) and blue (#4A90E2) accents
+- Glassmorphism effects and smooth transitions
+- 3D floating geometric shapes that respond to scroll
+- Intersection Observer for scroll-triggered animations
+- Loading screen with branded animation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Navigate to the project directory
+```bash
+cd portfolio-3d
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2. Install dependencies (already done)
+```bash
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Build for Production
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📱 Responsive Breakpoints
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Mobile**: < 640px
+- **Tablet**: 640px - 1024px  
+- **Desktop**: > 1024px
+
+## 🎯 Performance Optimizations
+
+- Optimized 3D animations for 60fps
+- Efficient scroll event handling
+- Proper cleanup of event listeners
+- Lazy loading of components
+
+## 📄 Resume Download
+
+The portfolio includes a downloadable PDF resume. The file is located at `/public/Harish_G_Resume.pdf` and can be easily replaced with an updated version.
+
+## 🔗 Links
+
+- **Email**: hsirah16@gmail.com
+- **Phone**: +91 7358085526
+- **GitHub**: [github.com/15Harish](https://github.com/15Harish)
+- **LinkedIn**: [linkedin.com/in/harish-g-4144742833](https://linkedin.com/in/harish-g-4144742833)
+
+## 🎓 About Harish G
+
+Pre-Final Year Information Technology Student at Loyola ICAM College of Engineering, Chennai (CGPA: 7.9). Passionate about crafting intuitive and visually stunning digital experiences with expertise in Web3, Full-stack development, and Smart Contracts.
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ by Harish G
