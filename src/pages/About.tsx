@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Zap, Heart, Target, Linkedin } from 'lucide-react';
+import { Code, Zap, Linkedin } from 'lucide-react';
 
 export default function About() {
   const containerVariants = {

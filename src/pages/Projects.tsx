@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Github, Play, Info, Star, GitBranch } from 'lucide-react';
+import { ExternalLink, Github, Info, Star, GitBranch } from 'lucide-react';
 
 const projects = [
   {

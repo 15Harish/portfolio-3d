@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Award, Trophy, Medal, Star, Calendar, MapPin } from 'lucide-react';
+import { Award, Trophy, Medal, Star, Calendar } from 'lucide-react';
 
 const certifications = [
   {
